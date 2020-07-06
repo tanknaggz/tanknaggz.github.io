@@ -1,0 +1,25 @@
+{
+  "name": "tanknaggz.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanknaggz/tanknaggz.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanknaggz/tanknaggz.github.io/issues"
+  },
+  "homepage": "https://github.com/tanknaggz/tanknaggz.github.io#readme",
+  "devDependencies": {
+    "lite": "^4.0.5",
+    "lite-server": "^2.5.4"
+  }
+}
