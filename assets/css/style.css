@@ -142,27 +142,6 @@ section {
 # About
 --------------------------------------------------------------*/
 
- .about {
-  background: greenyellow;
-}
-
-/*
-
-.about .img-container {
-  position:relative;
-  overflow:hidden;
-  padding-bottom:100%;
-  max-width: 50vh;
-  max-height: 50vh;
-}
-
-.about img {
-
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}*/
 
 .about img {
   max-width: 210px;
@@ -198,3 +177,96 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+#skills ul { padding-left: 30px; padding-right: ;}
+#skills ul > li { min-height: 30px; padding: 3px 0px; }
+#skills ul > li:hover { background: #F2F2F2; }
+#skills ul > li .abilities-name { 
+  display: inline-block; 
+  width: 60%;
+  padding: 5px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+#skills ul > li .abilities-score { float: right; }
+#skills ul > li .abilities-score .far{ 
+	color:#DFE0E0; 
+	font-size: 14px; 
+	 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#skills ul > li .abilities-score .fas { color: #0563bb; }
+
+#skills ul > li:hover .abilities-score .fas { margin-left: 2px; }
+#skills ul > li:hover .abilities-score .far { margin-left: 2px; }
+#skills ul > li:hover .abilities-score .far { margin-left: 2px; } 
