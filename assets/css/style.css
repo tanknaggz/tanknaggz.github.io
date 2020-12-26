@@ -477,6 +477,7 @@ section {
 }
 
 @media (max-width: 767px) {
+    .resume-item { padding-right: 20px!important; }
     #hero :before {
         bottom: 100px;
         left: 20px;

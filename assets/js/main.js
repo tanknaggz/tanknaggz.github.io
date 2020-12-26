@@ -46,7 +46,7 @@ function lazyLoad(poContainer)
 function applyNavigation()
 {
 	applyClickEvent();
-	//applyNavigationFixForPhone();
+	applyNavigationFixForPhone();
 	//applyScrollSpy();
 	applyStickyNavigation();
 }
@@ -89,5 +89,13 @@ function applyClickEvent()
 			}, 400);
 		}
 		return false;
+	});
+}
+
+function applyNavigationFixForPhone()
+{
+	$('#navbarMenu li a').click(function(event) 
+	{
+		$('.navbar-collapse').removeClass('show').addClass('collapse');
 	});
 }
